@@ -3,6 +3,7 @@ $(document).ready(function () {
     $(".collapsible").collapsible();
     $(".tooltipped").tooltip();
     $("select").formSelect();
+    $('.modal').modal();
     $(".datepicker").datepicker({
         format: "dd mmmm, yyyy",
         yearRange: 3,
@@ -11,6 +12,7 @@ $(document).ready(function () {
             done: "Select"
         }
     });
+
 
     validateMaterializeSelect();
     function validateMaterializeSelect() {
